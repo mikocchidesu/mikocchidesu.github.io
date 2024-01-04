@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Waiter's Order Screen</title>
+</head>
+<body>
+    <h1>Place Your Order</h1>
+    <input type="text" id="menuSearch" placeholder="Search menu items..." onkeyup="searchMenu(this.value)">
+    <div id="searchResults"></div>
+
+    <h2>Your Order:</h2>
+    <ul id="orderList"></ul>
+    <button onclick="submitOrder()">Submit Order</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
